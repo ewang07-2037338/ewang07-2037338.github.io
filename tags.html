@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <head>
+        <title>Emily's Amazing Website</title>
+    </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        ul {
+            text-align: center;
+        }
+        div {
+            text-align: center;
+        }
+        
+body 
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body style="background-color: #FFF0F5">
+
+<h1 style="color: dimgray;">✧･ﾟ: *✧･ﾟ:*Emily Wang*:･ﾟ✧*:･ﾟ✧</h1>
+<p style="color: dimgray;">Click on the buttons to see more! (๑˃ᴗ˂)ﻭ </p>
+
+<audio autoplay loop>
+    <source src="drops.ogg" type="audio/ogg">
+    <source src="drops.mp3" type="audio/mpeg">
+  </audio>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')"style="color: dimgray;">About Me</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')" style="color: dimgray;">My Favorite Websites</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')" style="color: dimgray;">My Favorite Pictures</button>
+</div>
+
+<div id="London" class="tabcontent">
+   <h2 style="color: dimgray;">About Me</h2>
+  <p style="color: gray;">I was born in Portland, Oregon but moved to Camas, Washington in December 2020.</p>
+        <p style="color: gray;">My parents are from China, and I planned on going back over summer break, but Corona happened.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h2 style="color: dimgray;">My Favorite Websites</h2>
+        <ul style="color: gray;">
+            <li>
+                <a href="http://uw.edu" style="color: gray;">UW</a>
+            </li>
+            <li>
+                <a href="http://taobao.com" style="color: gray;">Shopping</a>
+            </li>
+            <li>
+                <a href="https://paradoxlive.jp/" style="color: gray;">Paradox Live</a>
+            </li>
+            <li>
+                <a href="https://milgram.jp/" style="color: gray;">Milgram Project</a>
+            </li>
+        </ul> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h2 style="color: dimgray;">My Favorite Pictures</h2>
+  <div>
+        <a href="https://hypnosismic.com/">
+            <img src="https://hypnosismic.com/uploads/2018/06/KICA3273_rgb.jpg" title="Hypnosis Mic" style="width:200px;height:200px;margin:5px">
+        </a>
+        <a href="https://kemonojihen-anime.com">
+            <img src="https://i.redd.it/15h3nwbtwt731.jpg" title="Kemono Jihen" style="width:274.074px;height:200px;margin:5px">
+        </a>
+        <a href="https://v.qq.com/detail/a/awnia0n2erqryf3.html">
+            <img src="https://puui.qpic.cn/vcover_vt_pic/0/awnia0n2erqryf31602557824776/0" title="All Saints Street" style="width:142.59259px;height:200px;margin:5px">
+        </a>
+        <a href="https://www.tbs.co.jp/anime/hanakokun/">
+            <img src="https://i.redd.it/j6qb7ukeu6541.jpg" title="Jibaku Shonen Hanako Kun" style="width:305.216095px;height:200px;margin:5px">
+        </a>
+    </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
