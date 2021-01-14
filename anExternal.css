@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emily's Amazing Website</title>
+    </head>
+<style>
+        img {
+  		float: right;
+        }
+        h2.dotted {
+        border-style: dotted;
+  		border-width: 2px;
+        border-radius: 25px
+		}
+</style>
+</head>
+<link rel="stylesheet" href="mystyle.css">
+<body>
+
+<h1 style="color: dimgray;text-align: center;">✧･ﾟ: *✧･ﾟ:*Emily Wang*:･ﾟ✧*:･ﾟ✧</h1>
+
+<div style="text-align: center;">
+   <h2 style="color: dimgray;" class="dotted">Master Level</h2>
+</div>
+
+<p><img src="https://i.pinimg.com/originals/30/35/e2/3035e2433b343548ad3dab96fa3d2f71.jpg" style="width:200px;height:200px;margin-left:15px;opacity:0.8;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+
+
+
+</body>
+</html> 
