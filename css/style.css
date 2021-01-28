@@ -214,6 +214,7 @@ button {
 .layout_padding_2 {
      padding-top: 75px;
      padding-bottom: 75px;
+
 }
 
 
@@ -1632,12 +1633,13 @@ input[type="radio"] .styled:checked+label::after {
      box-shadow: #081b30 0px 0px 0px 0px;
 }
 .layout_padding {
-     padding-top:  90px 0px;
-     ;
+     padding-top:  90px 0px 0px 0px;
 }
 .titlepage {
-     padding-bottom: 50px;
+     padding-bottom: 45px;
 }
+
+
 .titlepage h2 {
      padding: 0px 0px 0px 0px;
      font-size: 50px;
@@ -2417,22 +2419,21 @@ line-height: 30px;
     width: 9%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
  }
 
  .address_2{
      width: 100%;
      float: center;
      text-align: center;
-     padding-left: 285px;
-     padding-right: 100px;
+     padding-top:0px !important;
+
  }
  .address_2 a{
     color:white;
     float: center;
     text-align: center;
 }
-
 
  .home{
      width: 100%; 
