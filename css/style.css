@@ -216,6 +216,7 @@ button {
      padding-bottom: 75px;
 }
 
+
 .light_silver {
      background: #f9f9f9;
 }
@@ -1080,7 +1081,7 @@ ul.top_icon li a {
      display: block;
      font-weight: 500;
      color: #ffffff;
-     padding: 22px 20px;
+     padding: 20px 20px;
      text-transform: uppercase;
 }
 
@@ -1632,6 +1633,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 .layout_padding {
      padding-top:  90px 0px;
+     ;
 }
 .titlepage {
      padding-bottom: 50px;
@@ -2399,16 +2401,17 @@ line-height: 30px;
     float: left;
     background-color: #ff6faa;
     height: auto;
-    padding: 83px 0 0 0;
+    padding: 15px 0 0 0;
 }
 
 .address_text{
      width: 200%;
      text-align: center;
-     margin: 30px;
+     margin: none;
      float: center;
      border-bottom: 2px solid #fff;
      color: #fff;
+     padding-top: 50px;
 }
 .main{
     width: 9%;
@@ -2421,10 +2424,14 @@ line-height: 30px;
      width: 100%;
      float: center;
      text-align: center;
+     padding-left: 285px;
+     padding-right: 100px;
  }
  .address_2 a{
-    color:white
- }
+    color:white;
+    float: center;
+    text-align: center;
+}
 
 
  .home{
@@ -2442,23 +2449,25 @@ line-height: 30px;
      width: 40%;
      margin: 0 auto;
      text-align: center;
+     float: center;
+
  }
 
  .menu_text{
      width: 100%; 
-     float: left;
+     float: center;
      margin-top: 40px;
-     margin-bottom: 30px; 
+     margin-bottom: 30px;
 }
  .menu_text ul{ 
-     margin: 0px;
-     padding: 0px;
      text-align: center;
+     float: center;
+     display: inline;
 
  }
   .menu_text li{
      float: left;
-     padding-left: 50px;
+     margin: 30px;
      color: #fff;
      text-align: center;
   }
@@ -2468,7 +2477,7 @@ line-height: 30px;
   }
 
  .menu_text li a:hover{
-     color: #ff6faa;
+     color: #000;
  }
 
  .active{ color: #000; }
@@ -2496,19 +2505,23 @@ line-height: 30px;
 }   
 
 .site_info {
-    display: flex;
     color: #fff;
-    padding-bottom: 0px;
+    width: 200px;
+    margin: 0%;
+    text-align:center;
+    float: center;
 }
 
 .info_icon {
     background-color: transparent;
-    padding: 20px;  
-    margin-right: 0px;  
-    width: 60px;
-    height: 60px;
+    padding: 2px;  
+    width: 30px;
+    height: 30px;
     border-radius: 0px;
+    float: center;
+
 }
+
 
 .header_main{
      width: 100%;
